@@ -27,13 +27,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.header-telephone {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14x;
-letter-spacing: 0.02em;
-color: #757575
-}
+
 .header-mail {
  font-weight: 500;
 font-size: 14px;
@@ -41,18 +35,26 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.header-logo {
-  color: #212121;
-  color: #2196f3;
-}
+
 .web-blue {
   color: #2196f3;
 }
 .studio-black {
   color: #212121;
 }
+.header-telephone { 
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
 .menu-links {
-  color: #212121;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 
 .menu-links .link:hover,
@@ -91,6 +93,12 @@ cursor: pointer;
 .backlight-button {
 font-family: Roboto;
 font-weight: 500;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 
 }
 .keys {
@@ -181,6 +189,7 @@ color: #757575
   color: #FFFFFF;
 }
 .footer-address {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -206,6 +215,10 @@ color: #757575;
 .web-blue,
 .studio-wiete,
 .web-blue {
-font-family: Raleway;
-font-weight: bold;
+font-family: Raleway ,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
